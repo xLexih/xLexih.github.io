@@ -25,6 +25,7 @@ function typeWriter(text, i, fnCallback) {
 				break;
 			default:
 				time = 125;
+				break;
 		}
 		setTimeout(function() {
 			typeWriter(text, i + 1, fnCallback)
