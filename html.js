@@ -6,8 +6,8 @@ var dataText = [
 "why are you here smh smh",
 "How cute, you think i can program?",
 "Guess what...",
-"mostly stolen! heheHEHEHEHEHEHEHE",
-"anyway you probably didnt notice i spelt \"Programming\" wrong <3"];
+"mostly stolan! heheHEHEHEHEHEHEHE",
+"anyway you probably didn't notice i spelt \"Stolen\" wrong <3"];
 
 function typeWriter(text, i, fnCallback) {
 	if (i < (text.length)) {
@@ -21,10 +21,7 @@ function typeWriter(text, i, fnCallback) {
 				time = 50;
 				break;
 			case i>20:
-				time = 10;
-				break;
-			case i>20:
-				time = 10;
+				time = 5;
 				break;
 			default:
 				time = 125;
