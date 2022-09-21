@@ -47,6 +47,14 @@ body{
 	color: var(--textColor);
 }
 
+.LILBOTON{
+	width: fit-content;
+	height: fit-content;
+	color:rgb(210, 159, 255);
+	transform: translateX(65%);
+}
+
+
 /* Animation */
 .MagicText{
 	animation: typewriter 4s steps(44) 1s 1 normal both,
